@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPaths": "bin",
+    "java.project.referencedLibraries": ["lib//*.jar"],
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.test.config": {
+        "name": "myTestConfiguration",
+        "vmArgs": []
+    },
+    "java.testMethod": "junit"
+}
