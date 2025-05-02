@@ -51,9 +51,13 @@ This system is ideal for small to medium-sized travel agencies seeking to digiti
 4. **Configure Database in Code**
    - Open the Java file where database connection is set up (typically a `Conn.java`).
    - Update database URL, username, and password according to your local setup.
-
-5. **Build and Run the Project**
-   - Right-click on the project in VISUAL STUDIO.
+     
+5. **Run the Project**
+   - Open src/travel/management/system folder.
    - Then click `Run` file (Login.java).
-
+     
+6. **Testing Approach**
+   -Test File Organization
+   -The test files for this project are located within the src directory alongside the main application code, rather than in a separate test directory. This 
+    decision was made due to package loading issues encountered when trying to maintain a conventional project structure with separated test files.
 
